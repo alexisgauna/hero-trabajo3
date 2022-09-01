@@ -238,7 +238,7 @@ span{
     align-content: center;
     align-items: center;
     position: relative;
-    bottom: 1750px;
+    bottom: 1550px;
 }
 
 #tit{
@@ -274,7 +274,7 @@ span{
     align-items: center;
     gap: 200px;
     position: relative;
-    bottom: 1600px;
+    bottom: 1400px;
     transition-property:all ;  
 }
 
