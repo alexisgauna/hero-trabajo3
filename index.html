@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galex celulares</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mediaqueries.css">
 </head>
 
 <body class="body">
@@ -17,6 +18,12 @@
         </div>
 
         <nav class="listaorden">
+
+        <label for="menu-toggle" class="menu-label">
+         <img src="./imagenes/menu-hambur.png" alt="icono menu" class="menu-icon">
+        </label>
+        <input type="checkbox"  id="menu-toggle">
+
             <ul class="elementos">
 
                 <li id="ele">
@@ -31,11 +38,15 @@
                 <li id="ele">
                     <a id="ele" href="#">Contactenos</a>
                 </li>
+                
+            </ul>
+            <label for="cart-toggle">
                 <div class="carrito">
                     <img src="./imagenes/carrito.png" alt="carrito" class="carrito">
                 </div>
-            </ul>
-
+            </label>
+            <input type="checkbox" id="cart-toggle">
+            
         </nav>
     </header>
 
@@ -66,13 +77,100 @@
                     100% confiables y todos los productos con un año de garantía.
                 </p>
             </div>
-        <div>
-        <div class="parrafo-abajo">
-            <p>
-                Somos la tienda n1 en venta de celulares en la Argentina, reconocidos en toda latinoamerica con ventas y envios en el interior y exterior del país, seguimos creciendo de la mano de ustedes y esperamos seguir brindadoles los mejores productos con la máxima calidad del mercado. <span>Galex, Conectandote con lo que más amas.</span>
+            <div>
+                <div class="parrafo-abajo">
+                    <p>
+                        Somos la tienda n1 en venta de celulares en la Argentina, reconocidos en toda latinoamerica con
+                        ventas y envios en el interior y exterior del país, seguimos creciendo de la mano de ustedes y
+                        esperamos seguir brindadoles los mejores productos con la máxima calidad del mercado.
+                        <span>Galex, Conectandote con lo que más amas.</span>
+                    </p>
+                </div>
+
+    </main>
+
+    <main>
+        <div class="titulos-abajo">
+            <h1 id="tit">
+                Trabajamos con todas las compañias
+            </h1>
+            <p id="parraba">
+                Seleccione su compañia preferencial para brindarle una mejor ayuda
             </p>
         </div>
-    </main>
-</body>
+        <div class="cartas">
+            <div class="movistar">
+                <p id="titlogo">
+                    Movistar
+                </p>
+                <img class="imgm" src="./imagenes/movistar.png" alt="">
+                <p id="parrm">
+                    Si tu linea de celular preferentemente es Movistar click aquí
+                </p>
+            </div>
+            <div class="claro">
+                <P id="titlogo">
+                    Claro
+                </P>
+                <img class="imgc" src="./imagenes/claro.png" alt="">
+                <p>
+                    Si tu linea de celular preferentemente es Claro click aquí
+                </p>
+            </div>
+            <div class="personal">
+                <p id="titlogo">Personal</p>
 
+                <img class="imgp" src="./imagenes/personal.jpg" alt="">
+
+                <p>
+                    Si tu linea de celular preferentemente es Personal click aquí
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        
+            <div class="contacto">
+                <div class="lista-contacto">
+                    <h1 id="titucon">
+                        Para venta mayorista contactenos
+                    </h1>
+                    <div id="logocontacto">
+                        <img class="imglis" src="./imagenes/celular.png" alt="">
+                        <p id="cont">
+                            011-3449-7612
+                        </p>
+                    </div>
+
+                    <div id="logocontacto">
+                        <img class="imglis" src="./imagenes/direccion.png" alt="">
+                        <p id="cont">
+                            Buenos Aires, Salta 274
+                        </p>
+                    </div>
+
+
+                    <div id="logocontacto">
+                        <img class="imglis" src="./imagenes/mail.png" alt="">
+                        <p id="cont">
+                            </Galex-celulares>Galex-celulares@gmail.com
+                        </p>
+                    </div>
+                </div>
+                <div id="contfoto">
+                    <h1 id="titucon">Los esperamos en Salta 274</h1>
+                    <img src="./imagenes/images.jpg" alt="" class="imagen-contacto">
+                </div>
+            </div>
+            
+       
+        <div class="imagenes-footer">
+            <img id="imagenes-footer" src="./imagenes/facebook.png" alt="logofacebook">
+            <img id="imagenes-footer" src="./imagenes/twitter.png" alt="logotwitter">
+            <img id="imagenes-footer" src="./imagenes/instagram.png" alt="logoinstagram">
+        </div>
+        <img src="" alt="">
+        </div>
+    </footer>
+</body>
 </html>

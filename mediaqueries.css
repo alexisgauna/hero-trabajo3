@@ -1,0 +1,98 @@
+@media (max-width: 992px) {
+    .header{
+        gap:10px;
+
+    }
+
+  .elementos{
+    position: absolute;
+    top: 60px;
+    left: 43%;
+    right: 5%;
+    width: 50%;
+    flex-direction: column;
+    background: linear-gradient(to right, #000428, #004e92);
+    border: solid 5px black;
+    border-radius: 0px 0px 1em 1em;
+    align-items: flex-end;
+    z-index: 3;
+    gap: 30px;
+    display:none;
+    padding: 40px;
+    margin: 68px;
+  
+  }
+
+  #ele{
+    color: white;
+  }
+
+.menu-label{
+  display: flex;
+  order: 3;
+  position: relative;
+  left: 50px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.menu-label{
+  width: 20px;
+  height: 30px;
+}
+
+#menu-toggle:checked + .elementos{
+  display: flex;
+  border-top: none;
+}
+
+.main{
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  z-index: 2;
+}
+
+.menu {
+  width: 90%;
+}
+
+.titulos-abajo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 40px;
+  width: 50px;
+  position: relative;
+  bottom: 500px;
+  left: 400px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#tit{
+  display: flex;
+  font-size: 30px;
+  position: relative;
+  margin: 30px;
+}
+
+.contacto{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 100px;
+  gap: 40px;
+}
+
+.cartas{
+  display: flex;
+  flex-direction: column;
+  top: 100px;
+  gap: 40px;
+}
+
+}
